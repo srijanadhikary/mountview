@@ -1,0 +1,1057 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="download_date" content="2026-09-06T15:20:19.451Z"/>
+            
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <style>
+        .gallery-folder {
+            font-size: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="../_external/maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="../_external/fonts.googleapis.com/css2.family_Source_Sans_Pro_ital_wght_0_200_0_300_0_400_0_600_0_700_0_900_1_200_1_300_1_400_1_600_1_700_1_900_display_swap.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap4.css">
+
+    
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/adminlte.min.js"></script>
+    <script src="plugins/datatables/jquery.dataTables.js"></script>
+    <script src="plugins/datatables/dataTables.bootstrap4.js"></script>
+    <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="plugins/fastclick/fastclick.js"></script>
+    <script src="plugins/ckeditor/ckeditor.js"> </script>
+    <script src="../_external/cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.8/inputmask/inputmask.min.js"> </script>
+</head>
+<body class="hold-transition sidebar-mini">
+
+<div class="wrapper">
+    <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="."><i class="fa fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="index.html" class="nav-link">View Website</a>
+        </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    <form class="form-inline ml-3">
+        <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+        <!-- Messages Dropdown Menu -->
+        
+        
+        
+        
+        
+
+        
+        <!-- Notifications Dropdown Menu -->
+        
+        
+        
+        
+        
+
+        
+        <li class="dropdown notifications-menu nav-item" style="margin: 10px 10px;">
+            <a href="." class="dropdown-toggle" data-toggle="dropdown">
+                <span class="__cf_email__" data-cfemail="7c1d181115123c1e0e151b1408521508">[email&nbsp;protected]</span> <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+                <li class="header"><a href="users/6/edit.html">
+                        Change Password
+                    </a></li>
+
+                <li class="header"><a href="logout.html" onclick="event.preventDefault();
+                                       document.getElementById('logout-form').submit();">
+                        Logout
+                    </a></li>
+                <form id="logout-form" action="logout.html" method="POST" style="display: none;">
+                    <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                </form>
+                
+        
+    </ul>
+    </li>
+
+    </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a href="dashboard.html" class="brand-link">
+            <span class="brand-text font-weight-light">Bright CMS</span>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Sidebar user panel (optional) -->
+            <!-- Sidebar Menu -->
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                <li class="nav-item"><a class="nav-link" href="dashboard.html"><i class="fa fa fa-bars nav-icon"></i> <p> Dashboard</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="showadmission.html"><i class="fa fa-user-circle"></i> <p>Admisssion</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="institution-details.html"><i class="fa fa-building"></i> <p>Institution Details</p></a></li>
+
+                <li class="nav-item"><a class="nav-link" href="message-from-heads.html"><i class="fa fa fa-sticky-note nav-icon"></i> <p>Message From Heads</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="message-froms.html"><i class="fa fa fa-envelope nav-icon"></i> <p>Voice of Students/Parents</p></a></li>
+
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-user"></i><p>Members<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="member.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>All Members</p></a></li>
+                            <li class="nav-item"><a href="membercategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Member Category</p></a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-pagelines"></i><p>Page<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="page.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>All Pages</p></a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-book"></i><p>Updates/Features<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="." class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Updates/Features</p></a></li>
+                            <li class="nav-item"><a href="blogcategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Categories</p></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-image"></i><p>Gallery<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="galleries.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Photos</p></a></li>
+                            <li class="nav-item"><a href="gallerycategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Categories</p></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="notice.html" class="nav-link"><i class="nav-icon fa fa-bullhorn"></i><p>Notices </p></a></li>
+                    <li class="nav-item"><a href="slide.html" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Slider </p></a></li>
+
+                    <li class="nav-item"><a href="messages.html" class="nav-link"><i class="nav-icon fa fa-inbox"></i><p>Feedback / Queries </p></a></li>
+                    <li class="nav-item"><a href="features.html" class="nav-link"><i class="nav-icon fa fa-inbox"></i><p>Features </p></a></li>
+                    
+
+                    <li class="nav-item"><a href="download.html" class="nav-link"><i class="nav-icon fa fa-download"></i><p>Download</p></a></li>
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-info-circle"></i><p>More<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                                <li class="nav-item"><a href="careers.html" class="nav-link"><i class="nav-icon fa fa-briefcase"></i><p>Career</p></a></li>
+                                <li class="nav-item"><a href="calendars.html" class="nav-link"><i class="nav-icon fa fa-calendar"></i><p>Calendar</p></a></li>
+                                <li class="nav-item"><a href="quicklinks.html" class="nav-link"><i class="nav-icon fa fa-mouse-pointer"></i><p>Quick Links </p></a></li>
+                                <li class="nav-item"><a href="popups.html" class="nav-link"><i class="nav-icon fa fa-file"></i><p>Popups </p></a></li>
+                                <li class="nav-item"><a href="seo.html" class="nav-link"><i class="nav-icon fa fa-search"></i><p>SEO</p></a></li>
+
+                            </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+    
+
+
+    <div class="content-wrapper">
+    <section class="content">
+
+
+
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Updates/Features             <a href="blog/create.html" class="btn btn-primary" type="" style="float:right; margin-bottom: 10px;"><span class="glyphicon glyphicon-plus"></span> Add Updates/Features  </a>
+                </h3>
+
+            </div>
+            <div class="card-body">
+
+                <table id="example1" class="table table-bordered table-striped">
+                    <thead>
+                    <tr class="table-heading">
+                        <th>Id</th>
+                        <th>Category</th>
+                        <th>Name</th>
+                        
+                        <th>Action</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                                            <tr>
+                            <td>1</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>कक्षा १२ काे व्यवस्थापन समुहमा दाङकाे माउन्टभ्यु जिल्ला उत्कृष्ट</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/2/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item2" action="https://mountviewschool.edu.np/blog/2" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item2').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>2</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>हार्दिक बधाई</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/3/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item3" action="https://mountviewschool.edu.np/blog/3" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item3').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>3</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>हार्दिक बधाई</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/5/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item5" action="https://mountviewschool.edu.np/blog/5" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item5').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>4</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>हार्दिक बधाई</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/6/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item6" action="https://mountviewschool.edu.np/blog/6" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item6').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>5</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>माउन्ट भ्युमा विज्ञान प्रदर्शनी</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/7/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item7" action="https://mountviewschool.edu.np/blog/7" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item7').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>6</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>हार्दिक बधाई !</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/8/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item8" action="https://mountviewschool.edu.np/blog/8" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item8').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>7</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>माउन्ट भ्यु बोर्डिङको ३९ औँ वार्षिक उत्सव सम्पन्न</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/9/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item9" action="https://mountviewschool.edu.np/blog/9" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item9').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>8</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>वार्षिकोत्सवका अवसरमा माउन्ट भ्युद्वारा रक्तदान</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/10/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item10" action="https://mountviewschool.edu.np/blog/10" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item10').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>9</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>सरसफाइ कार्यक्रम</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/11/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item11" action="https://mountviewschool.edu.np/blog/11" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item11').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>10</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>International Award winners</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/12/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item12" action="https://mountviewschool.edu.np/blog/12" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item12').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>11</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>Vacancy</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/13/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item13" action="https://mountviewschool.edu.np/blog/13" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item13').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>12</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>नयाँ  भर्ना</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/14/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item14" action="https://mountviewschool.edu.np/blog/14" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item14').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>13</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>Scholarship For Grade XI</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/15/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item15" action="https://mountviewschool.edu.np/blog/15" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item15').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>14</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>हार्दिक बधाई</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/17/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item17" action="https://mountviewschool.edu.np/blog/17" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item17').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>15</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>Congratulation</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/18/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item18" action="https://mountviewschool.edu.np/blog/18" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item18').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>16</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>रक्तदान कार्यक्रम</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/19/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item19" action="https://mountviewschool.edu.np/blog/19" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item19').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>17</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>Schoralship Notice</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/20/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item20" action="https://mountviewschool.edu.np/blog/20" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item20').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>18</td>
+                            <td>Notice</td>
+                            <td>Scholarship Exam Notice</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/21/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item21" action="https://mountviewschool.edu.np/blog/21" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item21').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>19</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>Notice</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/22/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item22" action="https://mountviewschool.edu.np/blog/22" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item22').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>20</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>हार्दिक बधाई</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/23/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item23" action="https://mountviewschool.edu.np/blog/23" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item23').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>21</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>Admission Open in Class XI</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/24/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item24" action="https://mountviewschool.edu.np/blog/24" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item24').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>22</td>
+                            <td>NEWS AND EVENTS</td>
+                            <td>हार्दिक बधाई</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/25/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item25" action="https://mountviewschool.edu.np/blog/25" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item25').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>23</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>Vacccancy Announcement</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/26/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item26" action="https://mountviewschool.edu.np/blog/26" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item26').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td>24</td>
+                            <td>ANNOUNCEMENTS</td>
+                            <td>Scholarship Exam Notice</td>
+                            
+
+                            <td>
+                                <div class="pull-left">
+                                    <a href="blog/27/edit.html" class="btn btn-primary"><i class="fa fa-pencil "></i></a>
+                                </div>
+
+                                <div class="float-left" style="margin-left:40px;">
+                                <form id="delete-item27" action="https://mountviewschool.edu.np/blog/27" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+                                </form>
+                                 <a href="" onclick="
+                                if (confirm('Are you sure, You want to delete this ?'))
+                                {
+                                event.preventDefault();
+                                document.getElementById('delete-item27').submit();
+                                }
+                                else{
+                                event.preventDefault();
+                                }
+
+                                " class="btn btn-danger">
+                                <i class="fa fa-trash "></i>
+
+                                </a>
+                                 </div>
+                            </td>
+                        </tr>
+                                        </tbody>
+                </table>
+
+            </div>
+        </div>
+    </section>
+</div>
+
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    $(function () {
+
+        $('#example1').DataTable({
+            'paging'      : true,
+            'lengthChange': false,
+            'searching'   : true,
+            'ordering'    : true,
+            'info'        : true,
+            'autoWidth'   : false
+        });
+    });
+</script>
+
+
+        <footer class="main-footer print-hide">
+        <div class="container">
+            <div class="row" style="width:95%;">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0.0 Designed &amp; Developed by Bright Office Systems Pvt. Ltd.
+                </div>
+                <strong>Copyright © 2018 <a href=".">Bright CMS</a>.</strong>
+            </div>
+        </div>
+    </footer>
+</div>
+
+
+</body>

@@ -1,0 +1,1085 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="download_date" content="2026-09-06T15:20:19.451Z"/>
+            
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <style>
+        .gallery-folder {
+            font-size: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="../_external/maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="../_external/fonts.googleapis.com/css2.family_Source_Sans_Pro_ital_wght_0_200_0_300_0_400_0_600_0_700_0_900_1_200_1_300_1_400_1_600_1_700_1_900_display_swap.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap4.css">
+
+    
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/adminlte.min.js"></script>
+    <script src="plugins/datatables/jquery.dataTables.js"></script>
+    <script src="plugins/datatables/dataTables.bootstrap4.js"></script>
+    <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="plugins/fastclick/fastclick.js"></script>
+    <script src="plugins/ckeditor/ckeditor.js"> </script>
+    <script src="../_external/cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.8/inputmask/inputmask.min.js"> </script>
+</head>
+<body class="hold-transition sidebar-mini">
+
+<div class="wrapper">
+    <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="."><i class="fa fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="index.html" class="nav-link">View Website</a>
+        </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    <form class="form-inline ml-3">
+        <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+        <!-- Messages Dropdown Menu -->
+        
+        
+        
+        
+        
+
+        
+        <!-- Notifications Dropdown Menu -->
+        
+        
+        
+        
+        
+
+        
+        <li class="dropdown notifications-menu nav-item" style="margin: 10px 10px;">
+            <a href="." class="dropdown-toggle" data-toggle="dropdown">
+                <span class="__cf_email__" data-cfemail="254441484c4b6547574c424d510b4c51">[email&nbsp;protected]</span> <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+                <li class="header"><a href="users/6/edit.html">
+                        Change Password
+                    </a></li>
+
+                <li class="header"><a href="logout.html" onclick="event.preventDefault();
+                                       document.getElementById('logout-form').submit();">
+                        Logout
+                    </a></li>
+                <form id="logout-form" action="logout.html" method="POST" style="display: none;">
+                    <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                </form>
+                
+        
+    </ul>
+    </li>
+
+    </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a href="dashboard.html" class="brand-link">
+            <span class="brand-text font-weight-light">Bright CMS</span>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Sidebar user panel (optional) -->
+            <!-- Sidebar Menu -->
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                <li class="nav-item"><a class="nav-link" href="dashboard.html"><i class="fa fa fa-bars nav-icon"></i> <p> Dashboard</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="showadmission.html"><i class="fa fa-user-circle"></i> <p>Admisssion</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="institution-details.html"><i class="fa fa-building"></i> <p>Institution Details</p></a></li>
+
+                <li class="nav-item"><a class="nav-link" href="message-from-heads.html"><i class="fa fa fa-sticky-note nav-icon"></i> <p>Message From Heads</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="message-froms.html"><i class="fa fa fa-envelope nav-icon"></i> <p>Voice of Students/Parents</p></a></li>
+
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-user"></i><p>Members<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="member.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>All Members</p></a></li>
+                            <li class="nav-item"><a href="membercategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Member Category</p></a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-pagelines"></i><p>Page<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="page.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>All Pages</p></a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-book"></i><p>Updates/Features<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="blog.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Updates/Features</p></a></li>
+                            <li class="nav-item"><a href="blogcategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Categories</p></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-image"></i><p>Gallery<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="galleries.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Photos</p></a></li>
+                            <li class="nav-item"><a href="gallerycategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Categories</p></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="notice.html" class="nav-link"><i class="nav-icon fa fa-bullhorn"></i><p>Notices </p></a></li>
+                    <li class="nav-item"><a href="slide.html" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Slider </p></a></li>
+
+                    <li class="nav-item"><a href="." class="nav-link"><i class="nav-icon fa fa-inbox"></i><p>Feedback / Queries </p></a></li>
+                    <li class="nav-item"><a href="features.html" class="nav-link"><i class="nav-icon fa fa-inbox"></i><p>Features </p></a></li>
+                    
+
+                    <li class="nav-item"><a href="download.html" class="nav-link"><i class="nav-icon fa fa-download"></i><p>Download</p></a></li>
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-info-circle"></i><p>More<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                                <li class="nav-item"><a href="careers.html" class="nav-link"><i class="nav-icon fa fa-briefcase"></i><p>Career</p></a></li>
+                                <li class="nav-item"><a href="calendars.html" class="nav-link"><i class="nav-icon fa fa-calendar"></i><p>Calendar</p></a></li>
+                                <li class="nav-item"><a href="quicklinks.html" class="nav-link"><i class="nav-icon fa fa-mouse-pointer"></i><p>Quick Links </p></a></li>
+                                <li class="nav-item"><a href="popups.html" class="nav-link"><i class="nav-icon fa fa-file"></i><p>Popups </p></a></li>
+                                <li class="nav-item"><a href="seo.html" class="nav-link"><i class="nav-icon fa fa-search"></i><p>SEO</p></a></li>
+
+                            </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+    
+
+
+
+    <div class="content-wrapper">
+
+        <section class="content">
+            <div class="row">
+                <div class="col-md-12">
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3 class="card-title">Message 
+                            </h3>
+
+                        </div>
+                        <!-- /.card-header -->
+
+                        <div class="card-body">
+
+                            <div class="modal fade" id="645" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">RobertCaG</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="a6ced5cfcac9cccec9c8c7cfd5dfe6c1cbc7cfca88c5c9cb">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Salut, ech wollt Äre Präis wëssen.
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="644" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">CarlosTen</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="aac9cbdac5d9decbd8c1d9eacdc7cbc3c684c9c5c7">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        A $25,000 promo code for the star https://telegra.ph/Win-the-1000000-jackpot-today-Message-ID-201435-08-30
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="643" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Newton Poole</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="99f4f3abaeada1a0afa8d9fef4f8f0f5b7faf6f4">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hello!! 
+My name is Newton Poole, I work as the Research and Procurement Pharmacist in a pharmaceutical company. I am writing to extend a business request to you.  I am looking for a trustworthy entrepreneur/individual to represent my company in sourcing
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="642" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">RobertCaG</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="503823393c3f3a383f3e3139232910373d31393c7e333f3d">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hola, quería saber tu precio..
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="641" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">CarlosTen</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="c7b0a2b5a1a2ab87a0aabfe9a3a2">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        FAST CASH GRAB YOUR $25,000 PROMO CODE BEFORE IT'S GONE https://link.1hut.ru/SZpMrt
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="640" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">NARYTHY1093045NEYHRTGE</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="3556475c46415a535a475a6a00070307755b5a59504141504746575a4d1b565a58">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        MEKYUJTYJ1093045MAERWETT
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="639" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">DavidSig</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="422c2d6c3027322e3b6c1134272c6f07302b290f23273102252f232b2e6c212d2f">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hi! mountviewschool.edu.np, 
+While browsing the web I noticed your website. 
+Our system automated contact form messaging. 
+This platform allows companies to reach websites in various industries. 
+We aim to keep the platform affordable for companies of
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="638" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">RobertCaG</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="9af2e9f3f6f5f0f2f5f4fbf3e9e3dafdf7fbf3f6b4f9f5f7">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hæ, ég vildi vita verð þitt.
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="636" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">iodqzitdut</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="056b63697062757572456c6868606b76606c626b6c71602b6c6b636a">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        nthnqqdplmjsgtqmvenxlvxlnqiosi
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="637" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">jijmsslhzv</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="94e3f8e7e1e4e6e7f3d4fdf9f9f1fae7f1fdf3fafde0f1bafdfaf2fb">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        kxtfpexkxgmwwfmpkmmvgqwsehympu
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="635" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">RobertCaG</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="bdd5d8d3cfc4d9d4c5d2d389858afddad0dcd4d193ded2d0">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Hola, quería saber tu precio..
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="634" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">* * * $3,222 credit available! Confirm your operation here: http://darejeans.com/index.php?9ttkwm * * * hs=7b88ad8d1c24a71d31dcef38211b34ca* ххх*</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="84e6e3e3fab2b3b5e8e6efe6feb4f4b3e9f0b3fdf3e0c4e9e1f6e1f4ebf7f0aae7ebe9">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        akzk92
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="633" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">* * * &lt;a href="http://darejeans.com/index.php?9ttkwm"&gt;$3,222 credit available&lt;/a&gt; * * * hs=7b88ad8d1c24a71d31dcef38211b34ca* ххх*</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="f29095958cc4c5c39e90999088c282c59f86c58b8596b29f978097829d8186dc919d9f">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        akzk92
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="632" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Timothyloons</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="d9bda0b5b8b7f4aeb6b6bdeaeba9b3bfb399beb4a1f7acaa">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Egjnjmfnefjwdifj fkmdkdwdwkdwjj fkmfkengjkfmsdnfejfk mkfmkdmwjefnejfem mountviewschool.edu.np
+      </div>
+     </div>
+  </div>
+</div><div class="modal fade" id="628" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Josephantem</h5>
+        <h5 class="modal-title" id="exampleModalLongTitle"><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="92e6e6f8f9e5e2e7fde0eaf9f5e8f7e6f1f4e2d2f3fdfdfebcf1fdff">[email&nbsp;protected]</a></h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="margin-top: -40px;">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Your finances could improve starting tomorrow morning. 
+ 
+---&gt;   &lt;a href=https://u.to/jyyUIg&gt;Trading signals&lt;/a&gt; 
+ 
+☛   https://u.to/kiyUIg
+      </div>
+     </div>
+  </div>
+</div><table id="example1" class="table table-bordered table-striped">
+                                <thead>
+                                <tr class="table-heading">
+
+                                    <th>Date</th>
+                                    <th>Name</th>
+                                    <th>Email</th>
+                                    <th>Message</th>
+                                    <th>Action</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                      <tr>
+                                 <td>2026-09-04</td>
+                                 <td>RobertCaG</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="3c544f555053565453525d554f457c5b515d5550125f5351">[email&nbsp;protected]</a></td>
+                                 <td>Salut, ech wollt Äre Präis wëssen.</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#645"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item645" action="https://mountviewschool.edu.np/messages/645" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item645').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-09-04</td>
+                                 <td>CarlosTen</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="4b282a3b24383f2a3920380b2c262a222765282426">[email&nbsp;protected]</a></td>
+                                 <td>A $25,000 promo code for the star https://telegra.ph/Win-the-1000000-j....</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#644"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item644" action="https://mountviewschool.edu.np/messages/644" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item644').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-09-04</td>
+                                 <td>Newton Poole</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="0c61663e3b3834353a3d4c6b616d6560226f6361">[email&nbsp;protected]</a></td>
+                                 <td>Hello!! 
+My name is Newton Poole, I work as the Research and Procurem....</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#643"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item643" action="https://mountviewschool.edu.np/messages/643" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item643').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-09-03</td>
+                                 <td>RobertCaG</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="5e362d373231343631303f372d271e39333f3732703d3133">[email&nbsp;protected]</a></td>
+                                 <td>Hola, quería saber tu precio..</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#642"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item642" action="https://mountviewschool.edu.np/messages/642" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item642').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-09-01</td>
+                                 <td>CarlosTen</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="2651435440434a66414b5e084243">[email&nbsp;protected]</a></td>
+                                 <td>FAST CASH GRAB YOUR $25,000 PROMO CODE BEFORE IT'S GONE https://link.1....</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#641"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item641" action="https://mountviewschool.edu.np/messages/641" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item641').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-31</td>
+                                 <td>NARYTHY1093045NEYHRTGE</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="d4b7a6bda7a0bbb2bba6bb8be1e6e2e694babbb8b1a0a0b1a6a7b6bbacfab7bbb9">[email&nbsp;protected]</a></td>
+                                 <td>MEKYUJTYJ1093045MAERWETT</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#640"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item640" action="https://mountviewschool.edu.np/messages/640" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item640').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-29</td>
+                                 <td>DavidSig</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="721c1d5c0017021e0b5c2104171c5f37001b193f13170132151f131b1e5c111d1f">[email&nbsp;protected]</a></td>
+                                 <td>Hi! mountviewschool.edu.np, 
+While browsing the web I noticed your we....</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#639"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item639" action="https://mountviewschool.edu.np/messages/639" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item639').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-27</td>
+                                 <td>RobertCaG</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="432b302a2f2c292b2c2d222a303a03242e222a2f6d202c2e">[email&nbsp;protected]</a></td>
+                                 <td>Hæ, ég vildi vita verð þitt.</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#638"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item638" action="https://mountviewschool.edu.np/messages/638" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item638').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-27</td>
+                                 <td>iodqzitdut</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="7d131b11081a0d0d0a3d14101018130e18141a131409185314131b12">[email&nbsp;protected]</a></td>
+                                 <td>nthnqqdplmjsgtqmvenxlvxlnqiosi</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#636"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item636" action="https://mountviewschool.edu.np/messages/636" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item636').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-27</td>
+                                 <td>jijmsslhzv</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="592e352a2c292b2a3e193034343c372a3c303e37302d3c7730373f36">[email&nbsp;protected]</a></td>
+                                 <td>kxtfpexkxgmwwfmpkmmvgqwsehympu</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#637"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item637" action="https://mountviewschool.edu.np/messages/637" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item637').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-24</td>
+                                 <td>RobertCaG</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="49212c273b302d203126277d717e092e24282025672a2624">[email&nbsp;protected]</a></td>
+                                 <td>Hola, quería saber tu precio..</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#635"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item635" action="https://mountviewschool.edu.np/messages/635" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item635').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-16</td>
+                                 <td>* * * $3,222 credit available! Confirm your operation here: http://darejeans.com/index.php?9ttkwm * * * hs=7b88ad8d1c24a71d31dcef38211b34ca* ххх*</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="d1b3b6b6afe7e6e0bdb3bab3abe1a1e6bca5e6a8a6b591bcb4a3b4a1bea2a5ffb2bebc">[email&nbsp;protected]</a></td>
+                                 <td>akzk92</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#634"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item634" action="https://mountviewschool.edu.np/messages/634" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item634').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-16</td>
+                                 <td>* * * &lt;a href="http://darejeans.com/index.php?9ttkwm"&gt;$3,222 credit available&lt;/a&gt; * * * hs=7b88ad8d1c24a71d31dcef38211b34ca* ххх*</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="47252020397170762b252c253d7737702a33703e3023072a223522372834336924282a">[email&nbsp;protected]</a></td>
+                                 <td>akzk92</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#633"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item633" action="https://mountviewschool.edu.np/messages/633" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item633').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-15</td>
+                                 <td>Timothyloons</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="9efae7f2fff0b3e9f1f1faadaceef4f8f4def9f3e6b0ebed">[email&nbsp;protected]</a></td>
+                                 <td>Egjnjmfnefjwdifj fkmdkdwdwkdwjj fkmfkengjkfmsdnfejfk mkfmkdmwjefnejfem....</td>
+                                 <td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#632"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item632" action="https://mountviewschool.edu.np/messages/632" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item632').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+                                   <tr>
+                                 <td>2026-08-05</td>
+                                 <td>Josephantem</td>
+                                 <td><a href="cdn-cgi/l/email-protection.html" class="__cf_email__" data-cfemail="22565648495552574d505a494558475641445262434d4d4e0c414d4f">[email&nbsp;protected]</a></td>
+                                 <td>Your finances could improve starting tomorrow morning. 
+ 
+---&gt;   <a ....<="" td="">
+                                 </a></td><td width="10%">
+                                     <div class="pull-left">
+                                         <a href="." data-toggle="modal" data-target="#628"><i style="color:green; margin-right: 20px;" class="fa fa-eye"></i></a>
+                                     </div>
+                             
+                             <form id="delete-item628" action="https://mountviewschool.edu.np/messages/628" style="Display:none" method="post">
+                                <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                                <input type="hidden" name="_method" value="DELETE">
+
+                            </form>
+                            <a href="" onclick="
+                                    if (confirm('Are you sure, You want to delete this ?'))
+                                    {
+                                    event.preventDefault();
+                                    document.getElementById('delete-item628').submit();
+                                    }
+                                    else{
+                                    event.preventDefault();
+                                    }
+
+                                    ">
+
+                                <i class="fa fa-fw fa-trash" style="color:red;"></i></a>
+                        
+                 </td>
+
+                </tr>
+
+
+<!-- modal start -->
+                
+
+<!-- modal end -->
+
+      
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+  <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+
+
+        <footer class="main-footer print-hide">
+        <div class="container">
+            <div class="row" style="width:95%;">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0.0 Designed &amp; Developed by Bright Office Systems Pvt. Ltd.
+                </div>
+                <strong>Copyright © 2018 <a href=".">Bright CMS</a>.</strong>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>

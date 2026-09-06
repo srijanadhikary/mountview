@@ -1,0 +1,431 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="download_date" content="2026-09-06T15:20:19.451Z"/>
+            
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <style>
+        .gallery-folder {
+            font-size: 50px;
+        }
+    </style>
+    <link rel="stylesheet" href="../_external/maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="dist/css/adminlte.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+    <link href="../_external/fonts.googleapis.com/css2.family_Source_Sans_Pro_ital_wght_0_200_0_300_0_400_0_600_0_700_0_900_1_200_1_300_1_400_1_600_1_700_1_900_display_swap.css" rel="stylesheet">
+    <link rel="stylesheet" href="plugins/datatables/dataTables.bootstrap4.css">
+
+    
+
+    <script src="plugins/jquery/jquery.min.js"></script>
+    <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="dist/js/adminlte.min.js"></script>
+    <script src="plugins/datatables/jquery.dataTables.js"></script>
+    <script src="plugins/datatables/dataTables.bootstrap4.js"></script>
+    <script src="plugins/slimScroll/jquery.slimscroll.min.js"></script>
+    <script src="plugins/fastclick/fastclick.js"></script>
+    <script src="plugins/ckeditor/ckeditor.js"> </script>
+    <script src="../_external/cdnjs.cloudflare.com/ajax/libs/inputmask/4.0.8/inputmask/inputmask.min.js"> </script>
+</head>
+<body class="hold-transition sidebar-mini">
+
+<div class="wrapper">
+    <nav class="main-header navbar navbar-expand bg-white navbar-light border-bottom">
+    <!-- Left navbar links -->
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link" data-widget="pushmenu" href="."><i class="fa fa-bars"></i></a>
+        </li>
+        <li class="nav-item d-none d-sm-inline-block">
+            <a href="index.html" class="nav-link">View Website</a>
+        </li>
+    </ul>
+
+    <!-- SEARCH FORM -->
+    <form class="form-inline ml-3">
+        <div class="input-group input-group-sm">
+            <input class="form-control form-control-navbar" type="search" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+                <button class="btn btn-navbar" type="submit">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </form>
+
+    <!-- Right navbar links -->
+    <ul class="navbar-nav ml-auto">
+        <!-- Messages Dropdown Menu -->
+        
+        
+        
+        
+        
+
+        
+        <!-- Notifications Dropdown Menu -->
+        
+        
+        
+        
+        
+
+        
+        <li class="dropdown notifications-menu nav-item" style="margin: 10px 10px;">
+            <a href="." class="dropdown-toggle" data-toggle="dropdown">
+                <span class="__cf_email__" data-cfemail="a2c3c6cfcbcce2c0d0cbc5cad68ccbd6">[email&nbsp;protected]</span> <i class="fa fa-angle-down"></i>
+            </a>
+            <ul class="dropdown-menu">
+                <li class="header"><a href="users/6/edit.html">
+                        Change Password
+                    </a></li>
+
+                <li class="header"><a href="logout.html" onclick="event.preventDefault();
+                                       document.getElementById('logout-form').submit();">
+                        Logout
+                    </a></li>
+                <form id="logout-form" action="logout.html" method="POST" style="display: none;">
+                    <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS">
+                </form>
+                
+        
+    </ul>
+    </li>
+
+    </ul>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+    <aside class="main-sidebar sidebar-dark-primary elevation-4">
+        <!-- Brand Logo -->
+        <a href="dashboard.html" class="brand-link">
+            <span class="brand-text font-weight-light">Bright CMS</span>
+        </a>
+
+        <!-- Sidebar -->
+        <div class="sidebar">
+            <!-- Sidebar user panel (optional) -->
+            <!-- Sidebar Menu -->
+            <nav class="mt-2">
+                <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+
+                <li class="nav-item"><a class="nav-link" href="dashboard.html"><i class="fa fa fa-bars nav-icon"></i> <p> Dashboard</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="showadmission.html"><i class="fa fa-user-circle"></i> <p>Admisssion</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="institution-details.html"><i class="fa fa-building"></i> <p>Institution Details</p></a></li>
+
+                <li class="nav-item"><a class="nav-link" href="message-from-heads.html"><i class="fa fa fa-sticky-note nav-icon"></i> <p>Message From Heads</p></a></li>
+                <li class="nav-item"><a class="nav-link" href="message-froms.html"><i class="fa fa fa-envelope nav-icon"></i> <p>Voice of Students/Parents</p></a></li>
+
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-user"></i><p>Members<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="member.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>All Members</p></a></li>
+                            <li class="nav-item"><a href="membercategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Member Category</p></a></li>
+                        </ul>
+                    </li>
+
+
+
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-pagelines"></i><p>Page<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="page.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>All Pages</p></a></li>
+                            
+                        </ul>
+                    </li>
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-book"></i><p>Updates/Features<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="blog.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Updates/Features</p></a></li>
+                            <li class="nav-item"><a href="blogcategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Categories</p></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-image"></i><p>Gallery<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                            <li class="nav-item"><a href="galleries.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Photos</p></a></li>
+                            <li class="nav-item"><a href="gallerycategory.html" class="nav-link"><i class="fa fa-arrow-right nav-icon"></i><p>Categories</p></a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item"><a href="notice.html" class="nav-link"><i class="nav-icon fa fa-bullhorn"></i><p>Notices </p></a></li>
+                    <li class="nav-item"><a href="slide.html" class="nav-link"><i class="nav-icon fa fa-th"></i><p>Slider </p></a></li>
+
+                    <li class="nav-item"><a href="messages.html" class="nav-link"><i class="nav-icon fa fa-inbox"></i><p>Feedback / Queries </p></a></li>
+                    <li class="nav-item"><a href="features.html" class="nav-link"><i class="nav-icon fa fa-inbox"></i><p>Features </p></a></li>
+                    
+
+                    <li class="nav-item"><a href="download.html" class="nav-link"><i class="nav-icon fa fa-download"></i><p>Download</p></a></li>
+                    <li class="nav-item has-treeview"><a href="." class="nav-link"><i class="nav-icon fa fa-info-circle"></i><p>More<i class="right fa fa-angle-left"></i></p></a>
+                        <ul class="nav nav-treeview">
+                                <li class="nav-item"><a href="careers.html" class="nav-link"><i class="nav-icon fa fa-briefcase"></i><p>Career</p></a></li>
+                                <li class="nav-item"><a href="." class="nav-link"><i class="nav-icon fa fa-calendar"></i><p>Calendar</p></a></li>
+                                <li class="nav-item"><a href="quicklinks.html" class="nav-link"><i class="nav-icon fa fa-mouse-pointer"></i><p>Quick Links </p></a></li>
+                                <li class="nav-item"><a href="popups.html" class="nav-link"><i class="nav-icon fa fa-file"></i><p>Popups </p></a></li>
+                                <li class="nav-item"><a href="seo.html" class="nav-link"><i class="nav-icon fa fa-search"></i><p>SEO</p></a></li>
+
+                            </ul>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /.sidebar-menu -->
+        </div>
+        <!-- /.sidebar -->
+    </aside>
+
+    
+
+
+<div class="content-wrapper">
+    <section class="content">
+
+
+
+        <div class="card">
+            <div class="card-header">
+                <h3 class="card-title">Calendar
+                    <form action="https://mountviewschool.edu.np/calendars/year" method="post" class="pull-right">
+                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                        <label for="">Year</label>
+                        <input type="text" name="year" value="2080" style="width:100px;">
+                        <button type="submit" class="btn btn-sm btn-success" style="margin-top:-05px; "><i class="fa fa-save"></i>&nbsp; save</button>
+                    </form>
+                </h3>
+            </div>
+            <div class="card-body">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th>Month</th>
+                            <th>Month Name </th>
+                            <th>Calendar</th>
+                            <th style="width: 370px;">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                                    <tr>
+                                <td>1</td>
+                                <td>Baishakh</td>
+                                <td>
+                                                                            <img src="images/calendar/f6-1354231684329455.jpg" alt="Baishakh" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/1" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>2</td>
+                                <td>Jestha</td>
+                                <td>
+                                                                            <img src="images/calendar/f9-436551684329666.jpg" alt="Jestha" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/2" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>3</td>
+                                <td>Asar</td>
+                                <td>
+                                                                            <img src="images/calendar/f8-9904411684329676.jpg" alt="Asar" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/3" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>4</td>
+                                <td>Shrawan</td>
+                                <td>
+                                                                            <img src="images/calendar/f8-766901684329687.jpg" alt="Shrawan" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/4" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>5</td>
+                                <td>Bhadra</td>
+                                <td>
+                                                                            <img src="images/calendar/f7-9691971565326568.JPG" alt="Bhadra" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/5" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>6</td>
+                                <td>Ashoj</td>
+                                <td>
+                                                                            <img src="images/calendar/f10-4641061565326580.JPG" alt="Ashoj" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/6" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>7</td>
+                                <td>Kartik</td>
+                                <td>
+                                                                            <img src="images/calendar/f5-93361565326589.JPG" alt="Kartik" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/7" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>8</td>
+                                <td>Mangshir</td>
+                                <td>
+                                                                            <img src="images/calendar/f1-4152441565326598.JPG" alt="Mangshir" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/8" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>9</td>
+                                <td>Poush</td>
+                                <td>
+                                                                            <img src="images/calendar/f3-7626001565326610.JPG" alt="Poush" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/9" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>10</td>
+                                <td>Magh</td>
+                                <td>
+                                                                            <img src="images/calendar/f1-5684381565326618.PNG" alt="Magh" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/10" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>11</td>
+                                <td>Falgun</td>
+                                <td>
+                                                                            <img src="images/calendar/f1-5684381565326618.PNG" alt="Falgun" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/11" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                                    <tr>
+                                <td>12</td>
+                                <td>Chaitra</td>
+                                <td>
+                                                                            <img src="images/calendar/f1-5684381565326618.PNG" alt="Chaitra" width="50">
+                                                                    </td>
+                                <td>
+                                    <form action="https://mountviewschool.edu.np/calendars/12" method="post" enctype="multipart/form-data">
+                                        <input type="hidden" name="_token" value="pncgRfGnqDvSwIAth17n6haRNI3rMTj0omPjhgUS"> <input type="hidden" name="_method" value="PATCH">                                        <input type="file" name="image">
+                                        <button type="submit" class="btn btn-sm btn-success">
+                                            <i class="fa fa-save"></i>
+                                            &nbsp;save</button>
+                                    </form>
+                                </td>
+                            </tr>
+                                            </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+</div>
+
+
+        <footer class="main-footer print-hide">
+        <div class="container">
+            <div class="row" style="width:95%;">
+                <div class="pull-right hidden-xs">
+                    <b>Version</b> 1.0.0 Designed &amp; Developed by Bright Office Systems Pvt. Ltd.
+                </div>
+                <strong>Copyright © 2018 <a href=".">Bright CMS</a>.</strong>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script data-cfasync="false" src="cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
+</body>
