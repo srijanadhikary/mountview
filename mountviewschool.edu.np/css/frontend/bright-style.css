@@ -1,0 +1,99 @@
+
+:root {
+    --title-color: black;
+    --theme-color-blue: #7d192c;
+    --theme-color-yello: #7d192c;
+}
+
+.bright-brand {
+    font-size: 40px;
+    letter-spacing: 1px;
+    display:block;
+    text-transform: capitalize;
+    /* margin: 13px 10px 0px 25px; */
+    background: white;
+
+    position: absolute;
+    top: 0;
+    z-index:99;
+    color: #0A0A0A;
+    font-family: 'Poppins', serif;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}
+
+.logo-text{
+    font-family: 'Poppins', serif;
+    font-weight: 700;
+}
+.bright-slider-text{
+
+    background-color: rgba(255,255,255,0.35);
+    border-radius: 10px;
+}
+.bright-slider-text h1{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+
+.grids5-info a.btn-news {
+    padding: 0;
+    color: var(--secondary);
+    transition: 0.3s ease-in-out;
+    border-radius: 0;
+    position: relative;
+    display: inline-block;
+    font-size: 14px;
+
+}
+
+.message-from-text p{
+    font-size: 16px;
+    line-height: 25px;
+    color: var(--text-color);
+    margin-top: 15px;
+}
+.name h4 {
+    font-size: 18px;
+    color: var(--theme-color-yello);
+    font-weight: 600;
+    text-transform: uppercase; }
+.name p{
+    font-size: 16px;
+    color: var(--text-color);
+    margin-top: 5px;
+}
+.why-us-title{
+    color: #ffffff;
+    font-size: 36px;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-weight: 600;
+   padding-bottom: 20px;
+}
+.bright-nav {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(50,50,50,.75);
+}
+
+.theme-color-first{
+    color: var(--theme-color-yello);
+}
+.theme-color-second{
+    color: var(--theme-color-blue);
+}
+.page-heading h6{
+    color: var(--theme-color-blue);
+    font-size: 35px;
+    line-height: 40px;
+    font-weight: 600;
+    text-align: center;
+
+}
+
+
