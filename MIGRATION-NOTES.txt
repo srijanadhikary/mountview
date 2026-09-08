@@ -1,0 +1,5 @@
+The project was generated from the uploaded mountview-main.zip.
+Migrated editable pages: 38
+Migrated news/events: 20
+Migrated gallery images: 4
+Migrated slider images: 4
